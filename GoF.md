@@ -73,6 +73,7 @@ public class Main {
 }
 ```
 **실행 결과**
+
 <img src="https://user-images.githubusercontent.com/87972598/126967914-91239b83-b8c2-4227-8d22-77a8b9d20fb0.png" width="250" height="200">
 
 ***Main 클래스 내에서는 PrintBanner의 인스턴스를 Print 인터페이스형의 번수로 대입한것에 주의해야 합니다. 이 Main클래스는 어디까지나 Print라는 인터페이스를
