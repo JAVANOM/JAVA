@@ -8,14 +8,13 @@ public class CalendarEx9 {
 
         //년과 월을 substring으로 잘나서 정수로 변환
         //년에 12를 곱해서 월로 변환한 다음에 뺄셈을 하면 개월차를 구함
-        int month1 = Integer.parseInt(date1.substring(0,4))*12
+        int month1 = Integer.parseInt(date1.substring(0, 4)) * 12
                 + Integer.parseInt(date1.substring(4));
 
-        int month2 = Integer.parseInt(date2.substring(0,4))*12
+        int month2 = Integer.parseInt(date2.substring(0, 4)) * 12
                 + Integer.parseInt(date2.substring(4));
 
-        System.out.println(date1+"과 "+date2 + "의 차이는 "
-                           + Math.abs(month1-month2) + "개월 입니다.");
-
+        System.out.println(date1 + "과 " + date2 + "의 차이는 "
+                + Math.abs(month1 - month2) + "개월 입니다.");
     }
 }
